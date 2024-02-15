@@ -506,6 +506,7 @@ main {
 footer {
     background-color: var(--darkgrey);
     padding: 10px;
+    width: 100%;
 }
 
 .footer-div1 {

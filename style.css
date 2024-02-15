@@ -14,6 +14,7 @@ html {
     --white: #FFFFFF;
     --grey: #afa79f;
     --darkgrey: #222222;
+    --green: #28a745;
 }
 
 /* Header Starts */
@@ -143,11 +144,16 @@ main {
     background-repeat: no-repeat;
     background-color: var(--darkgrey);
     background-position-x: 90%;
-    background-position-y: 20%; 
+    background-position-y: 20%;
+    width: 100%;
 }
-.body-div3-pdiv1{
+
+.body-div3-pdiv1 {
+    width: 100%;
     gap: 30px;
+    padding-bottom: 50px;
 }
+
 .body-div3-p1 {
     text-align: center;
     font-size: 5rem;
@@ -169,6 +175,10 @@ main {
 
 .body-div3-pdiv1-ch1 {
     padding: 8px 25px;
+}
+
+.body-div3-pdiv-ch2 img {
+    width: 100%;
 }
 
 .body-div3-pdiv1-ch1 h2 {
@@ -212,7 +222,8 @@ main {
     border-radius: 30px;
     font-weight: 700;
 }
-.body-div3-pdiv1-ch1-p4 span{
+
+.body-div3-pdiv1-ch1-p4 span {
     color: var(--red);
     font-weight: 900;
     font-size: 1.3rem;
@@ -220,26 +231,169 @@ main {
     background-color: var(--white);
     border-radius: 40px;
 }
+
 /* Body Div 3 Ends */
 
 /* Body Div 4 Starts */
 
-.body-div4{
+.body-div4 {
     background-color: var(--black);
+    width: 100%;
+    padding-bottom: 50px;
 }
-.body-div4-p{
+
+.body-div4-p {
     color: var(--white);
     font-weight: 400;
     font-size: 4.5rem;
     text-align: center;
 }
-.body-div4-p span{
+
+.body-div4-p span {
     color: var(--white);
     font-weight: 900;
     font-size: 5rem;
     text-align: center;
 }
+
+.body-div4-mdiv {
+    gap: 50px;
+}
+
+.body-div4-pdiv {
+    width: 300px;
+}
+
+.body-div4-pdiv-ch1 img {
+    width: 100%;
+}
+
+.body-div4-pdiv-ch2 h2 {
+    color: var(--red);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.body-div4-pdiv-ch2-p1 {
+    color: var(--white);
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.body-div4-pdiv-ch2-p1 span {
+    color: var(--white);
+    font-size: 2.8rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.body-div4-pdiv-ch2-p2 {
+    color: var(--grey);
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.body-div4-pdiv-ch2-p3 {
+    color: var(--grey);
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.body-div4-pdiv-chdiv {
+    border: 1px solid grey;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 15px;
+    margin-left: 50px;
+    width: 60%;
+    border-radius: 30px;
+    color: var(--white);
+}
+
+.body-div4-pdiv-chdiv span {
+    color: var(--red);
+    padding: 8px 10px;
+    background-color: var(--white);
+    border-radius: 30px;
+}
+
 /* Body Div 4 Ends */
+
+/* Body Div 5 Ends */
+
+.body-div5 {
+    background-color: var(--darkgrey);
+    width: 100%;
+}
+
+.body-div5-p {
+    text-align: center;
+    font-size: 5rem;
+    color: var(--white);
+    font-weight: 700;
+}
+
+.body-div5-p span {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 900;
+    color: var(--white);
+}
+
+.body-div5-pdiv-ch2 {
+    padding: 10px;
+}
+
+.body-div5-pdiv-ch2 h2 {
+    color: var(--red);
+    font-size: 2.5rem;
+    letter-spacing: 5px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.body-div5-pdiv-ch2-p1 {
+    color: var(--white);
+    font-size: 4.5em;
+}
+
+.body-div5-pdiv-ch2-p1 span {
+    color: var(--white);
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.body-div5-pdiv-ch2-p2 {
+    color: var(--grey);
+    font-size: 1.5rem;
+}
+
+.body-div5-pdiv-ch2-p3 {
+    color: var(--grey);
+    font-size: 1.5rem;
+}
+
+.body-div5-pdiv-chdiv {
+    padding: 8px 12px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 20%;
+    background-color: var(--green);
+}
+.body-div5-pdiv-chdiv span{
+    padding: 5px 9px;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    color: var(--green);
+    background-color: var(--white);
+}
+
+/* Body Div 5 Ends */
+
 
 /* Body Ends */
 
